@@ -1,0 +1,91 @@
+
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; 
+    background-color: #f0f0f0; 
+}
+
+
+.cv {
+    width: 80%;           
+    min-height: 100vh;    
+    background-color: white;
+    margin: 0 auto;
+    border: 0.1rem solid black; 
+    padding: 3rem;
+    box-sizing: border-box;    
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    margin-bottom: 5rem;
+}
+
+
+.foto {
+    width: 30%;             
+    height: 18rem;          
+    background-color: #cccccc;
+    border: 0.1rem solid #000;
+    border-radius: 1rem;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+
+h1 { font-size: 3rem; margin: 0; }
+h2 { font-size: 2.2rem; margin-top: 2rem; border-bottom: 0.1rem solid #eee; }
+h3 {
+    font-size: 2rem;    
+    margin-top: 2rem;   
+    margin-bottom: 1rem; 
+    color: #333;        
+}
+p, li { font-size: 1.8rem; line-height: 1.6; }
+a { color: blue; text-decoration: underline; }
+
+
+html, body {
+    overflow-x: hidden;
+}
+
+
+.galeria {
+    display: flex;
+    justify-content: space-between; 
+    gap: 2rem;                      
+    margin-top: 2rem;
+}
+
+
+.foto-universidad {
+    width: 48%; 
+    text-align: center;
+}
+
+
+.foto-universidad img {
+    width: 100%;             
+    height: auto;            
+    border: 0.1rem solid #333;
+    border-radius: 0.5rem;   
+}
+
+.foto-universidad p {
+    font-size: 1.4rem;
+    color: #666;
+    margin-top: 0.5rem;
+}
