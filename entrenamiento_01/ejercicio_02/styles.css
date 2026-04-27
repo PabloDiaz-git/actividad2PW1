@@ -1,0 +1,124 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    overflow: hidden; 
+}
+
+
+.layout {
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border: 0.1rem solid black;
+}
+
+
+header, footer {
+    height: 10vh;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column; /* Para apilar el texto y el link de volver */
+    justify-content: center;
+    align-items: center;
+    border: 0.1rem solid black;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+main {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 2rem;
+}
+
+
+.receta-contenedor {
+    border: 0.1rem solid black;
+    border-radius: 4rem 4rem 4rem 4rem; /* Redondeado total como el dibujo */
+    padding: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.caja-imagen {
+    border: 0.1rem solid black;
+    width: 70%;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+}
+
+.pasos {
+    text-align: left;
+    display: inline-block;
+    width: 70%;
+}
+
+
+.formulario-gris {
+    background-color: #f2f2f2;
+    border: 0.1rem solid black;
+    padding: 2.5rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.campo {
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.campo label {
+    width: 25%;
+    font-size: 1.1rem;
+}
+
+.campo input, .campo textarea {
+    flex-grow: 1;
+    border: 0.1rem solid black;
+    padding: 0.4rem;
+}
+
+.botones-seccion {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 1.5rem;
+}
+
+.btn {
+    padding: 0.6rem 2.5rem;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-azul { background-color: #cfe2f3; }
+.btn-rosa { background-color: #f4cccc; }
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.volver {
+    font-size: 0.7rem;
+    font-weight: normal;
+    margin-top: 0.5rem;
+    color: blue;
+}
+

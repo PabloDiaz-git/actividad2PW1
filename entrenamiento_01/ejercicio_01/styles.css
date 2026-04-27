@@ -1,37 +1,36 @@
-
 html {
-    font-size: 62.5%;
+    font-size: 62.5%; 
 }
-
 
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
     display: flex;
-    justify-content: center; 
-    background-color: #f0f0f0; 
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
 }
-
 
 .cv {
     width: 80%;           
     min-height: 100vh;    
     background-color: white;
-    margin: 0 auto;
     border: 0.1rem solid black; 
     padding: 3rem;
-    box-sizing: border-box;    
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
-
 
 header {
     display: flex;
     justify-content: space-between; 
     align-items: flex-start;
     margin-bottom: 5rem;
+    flex-shrink: 0;
 }
-
 
 .foto {
     width: 30%;             
@@ -45,47 +44,66 @@ header {
     font-size: 1.6rem;
 }
 
-
 h1 { font-size: 3rem; margin: 0; }
-h2 { font-size: 2.2rem; margin-top: 2rem; border-bottom: 0.1rem solid #eee; }
-h3 {
-    font-size: 2rem;    
-    margin-top: 2rem;   
-    margin-bottom: 1rem; 
-    color: #333;        
+h2 { 
+    font-size: 2.2rem; 
+    margin-top: 2rem; 
+    border-bottom: 0.1rem solid #eee; 
+    padding-bottom: 0.5rem;
 }
+
 p, li { font-size: 1.8rem; line-height: 1.6; }
 a { color: blue; text-decoration: underline; }
 
+.contenido {
+    flex-grow: 1; 
+}
+
+.footer {
+    margin-top: 4rem;
+    padding: 2rem 0;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.footer hr {
+    margin-bottom: 2rem;
+    border: 0;
+    border-top: 0.1rem solid #eee;
+}
+
+.footer a {
+    font-size: 1.4rem;
+    color: blue;
+}
 
 html, body {
     overflow-x: hidden;
 }
 
-
 .galeria {
     display: flex;
-    justify-content: space-between; 
-    gap: 2rem;                      
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-top: 2rem;
 }
 
-
 .foto-universidad {
-    width: 48%; 
+    width: 300px;
     text-align: center;
 }
 
-
 .foto-universidad img {
-    width: 100%;             
-    height: auto;            
-    border: 0.1rem solid #333;
-    border-radius: 0.5rem;   
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0.8rem;
+    border: 0.1rem solid #ccc;
 }
 
 .foto-universidad p {
     font-size: 1.4rem;
-    color: #666;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
 }
+
