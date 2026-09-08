@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: lightsteelblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+    position: relative;
+    width: 80vw;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 2rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+
+#titulo-principal {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+.bloque-de-contenido {
+    margin-top: 0;
+    margin-bottom: 3.5rem;
+}
+
+.bloque-de-contenido h2 {
+    margin-top: 0;
+    margin-bottom: 1.2rem;
+}
+
+.bloque-imagen-datos {
+    display: block;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.datos-personales {
+    width: 60%;
+}
+
+.datos-personales p {
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+}
+
+.contenedor-imagen {
+    position: absolute;
+    top: 5rem;
+    right: 4rem;
+    width: 20%;
+}
+
+#imagen-del-cv {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    display: block;
+}
+
+main a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
