@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: cornsilk;
+}
+
+header {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: rgb(201, 50, 24);
+    border-style: outset;
+    border-width: 0.2rem;
+    border-color: rgb(236, 199, 13);
+    border-radius: 0.5rem;
+    margin-bottom: 2.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.etiqueta-home {
+    font-family: -apple-system;
+    font-size: 2.7rem;
+    color: rgb(236, 199, 13);
+    text-decoration: none;
+}
+
+.etiqueta-contacto {
+    font-family: -apple-system;
+    font-size: 2.7rem;
+    color: rgb(236, 199, 13);
+    text-decoration: none;
+}
+
+.etiqueta-home:hover, .etiqueta-contacto:hover {
+    color: rgba(236, 199, 13, 0.5);
+}
+
+.linea-divisoria-del-nav {
+    color: rgb(236, 199, 13);
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    font-size: 3rem;
+}
+
+#recetas {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.articulo-de-receta {
+    border-style: groove;
+    border-width: 0.2rem;
+    border-color: rgb(236, 199, 13);
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
+.titulo-de-receta {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    color: rgb(201, 50, 24);
+    -webkit-text-stroke: 0.1rem rgba(236, 199, 13, 0.5);
+    text-shadow: 0.1rem 0.1rem 0.2rem rgb(236, 199, 13);
+}
+
+.imagen-de-receta {
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+    height: auto;
+    border: 0.2rem groove rgba(236, 199, 13, 0.5);
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.ingredientes {
+    text-align: justify;
+    padding-left: 2.3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.6rem;
+    text-decoration: underline;
+}
+
+.lista-de-ingredientes {
+    text-align: left;
+    padding-left: 3.3rem;
+    padding-right: 3.3rem;
+    padding-bottom: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.lista-de-ingredientes li{
+    padding-bottom: 0.5rem;
+}
+
+.lista-de-pasos {
+    text-align: left;
+    padding-left: 3.3rem;
+    padding-right: 3.3rem;
+    padding-bottom: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.lista-de-pasos li{
+    padding-bottom: 0.7rem;
+}
+
+footer {
+    position: sticky;
+    width: 100%;
+    bottom: 0;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: rgb(201, 50, 24);
+    border-style: outset;
+    border-width: 0.2rem;
+    border-color: rgb(236, 199, 13);
+    border-radius: 0.5rem;
+    text-align: center;
+    font-family: -apple-system;
+    font-size: 1.2rem;
+    color: rgb(236, 199, 13);
+    margin-top: 2.5rem;
+}
