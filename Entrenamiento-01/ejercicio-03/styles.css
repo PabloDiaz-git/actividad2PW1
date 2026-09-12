@@ -1,0 +1,107 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    margin-bottom: 2rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(201, 50, 24);
+    border: outset 0.2rem rgb(236, 199, 13);
+    border-radius: 0.5rem;
+}
+
+nav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    color: rgb(236, 199, 13);
+}
+
+nav a:hover {
+    color: rgb(168, 141, 8);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: flex-start;
+    background-color: cornsilk;
+    border: outset 0.2rem rgb(236, 199, 13);
+    border-radius: 0.5rem;
+}
+
+#indice {
+    padding: 1rem 0rem 1rem 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+ul li{
+    padding: 0rem 0rem 0.5rem 1rem;
+    justify-content: left;
+    list-style-type: none;
+}
+
+ul li a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.seccion-recetas {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    gap: 0.7rem;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    border: solid 0.2rem rgb(168, 141, 8);
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+article h3 {
+    padding-bottom: 0.7rem;
+}
+
+article a {
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+

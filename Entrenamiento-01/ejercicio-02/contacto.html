@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contacto.css">
+    <title>Recetas Deliciosas-Contacto</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="etiqueta-home" href="index.html"><strong>HOME</strong></a>
+            <a class="etiqueta-contacto" href="contacto.html"><strong>CONTACTO</strong></a>
+        </nav>
+    </header>
+    <main>
+        <form action="" method="post">
+            <div class="contenedor-label-input">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="contenedor-label-input">
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="contenedor-label-input">
+                <label for="telefono">Tel:</label>
+                <input type="tel" name="telefono" id="telefono" required>
+            </div>
+            <div class="contenedor-label-input">
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="mensaje" class="cajon-de-mensaje" required></textarea>
+            </div>
+            <div class="contenedor-botones">
+                <button type="submit" class="boton-enviar">Enviar</button>
+                <button type="reset" class="boton-cancelar">Cancelar</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados</p>
+    </footer>
+</body>
+
+</html>
