@@ -35,7 +35,7 @@ main {
 }
 
 .bloque-imagen-datos {
-    display: block;
+    display: flex; 
     justify-content: space-between;
     align-items: flex-start;
 }
@@ -50,9 +50,6 @@ main {
 }
 
 .contenedor-imagen {
-    position: absolute;
-    top: 5rem;
-    right: 4rem;
     width: 20%;
 }
 

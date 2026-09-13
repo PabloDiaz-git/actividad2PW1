@@ -11,7 +11,7 @@ html {
 body {
     margin: 0 auto;
     width: 80%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 header {
@@ -55,6 +55,7 @@ main {
 }
 
 #indice {
+    scroll-margin-top: 5rem;
     padding: 1rem 0rem 1rem 1rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: underline;
