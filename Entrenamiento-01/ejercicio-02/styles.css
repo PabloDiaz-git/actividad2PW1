@@ -113,14 +113,30 @@ nav {
 
 .lista-de-pasos {
     text-align: left;
-    padding-left: 3.3rem;
-    padding-right: 3.3rem;
-    padding-bottom: 1rem;
+    padding: 1rem 1.3rem 1rem 3.3rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .lista-de-pasos li {
     padding-bottom: 0.7rem;
+}
+
+.boton-volver-al-indice {
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: max-content;
+    align-items: center;
+    justify-content: center;
+    margin: 2.5rem auto 2.5rem auto;
+    padding: 1.5rem 1rem 1.5rem 1rem;
+    border: outset 0.3rem rgb(236, 199, 13);
+    border-radius: 1rem;
+    color: black;
+    text-decoration: none;
+}
+
+.boton-volver-al-indice:hover {
+    background-color: rgb(182, 175, 148);
 }
 
 footer {
